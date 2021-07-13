@@ -1,0 +1,53 @@
+ /* google font */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.top-section{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.top-headding{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+}
+.board-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-left: 152px;
+    margin-top: 196px;
+    padding-right: 80px;
+}
+.picture img{
+    Width: 525.01px;
+    height: 410px;
+    margin-top: 156px;
+}
+.top-title a{
+    text-decoration: none;
+    margin-left: 158px;
+    background-color: crimson;
+    padding: 5px 10px;
+}
+/* players style */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-photo{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0 0 40px 0 wheat;
+    margin: 27px;
+}
+.player-photo img{
+    width: 100%;
+}
+
+
