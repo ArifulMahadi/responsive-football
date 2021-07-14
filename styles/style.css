@@ -24,9 +24,11 @@ body{
     Width: 525.01px;
     height: 410px;
     margin-top: 156px;
+    padding-left: 80px;
 }
 .top-title a{
     text-decoration: none;
+    color: #FFFFFF;
     margin-left: 158px;
     background-color: crimson;
     padding: 5px 10px;
@@ -63,17 +65,44 @@ body{
 ------------ */
 .highlight-section{
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 48px;
 }
 .highlight{
-    width: 541px;
-    height: 309px;
-    padding-top: 150px;
+    padding-top: 80px;
     padding-left: 170px;
+} 
+.highlight h2{
+    width: 300px;
+}  
+.highlight p{
+    width: 400px;
 }
+
 .banner img{
     width: 567px;
     height: 427px;
-    padding-right: 180px;
+    padding-top: 42px;
+    padding-right: 142px;
 }
-
+.highlight a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: darkorange;
+    padding: 5px 10px;
+}
+/* footer tag */
+footer{
+    text-align: center;
+}
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+.media-link{
+    color: #969BAB;
+}
+.footer-copyright{
+    color: #000000;
+}
 
