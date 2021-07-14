@@ -44,7 +44,7 @@ body{
 }
 .player-photo{
     width: 330px;
-    height: 474px;
+    height: 510px;
     background-color: #FFFFFF;
     box-shadow: 0 0 40px 0 wheat;
     margin: 27px;
@@ -57,10 +57,10 @@ body{
 .player-name{
     text-align: justify;
     padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
-.player-name p{
-    padding-bottom: 50px;
-}
+
 /* highlight
 ------------ */
 .highlight-section{
